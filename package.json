@@ -1,0 +1,19 @@
+{
+  "name": "sc-repro",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "build:babel": "babel index.js -o dist/babel/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "babel-plugin-styled-components": "1.10.7",
+    "rollup": "^2.7.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "styled-components": "^5.1.0"
+  }
+}
