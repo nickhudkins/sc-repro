@@ -13,4 +13,6 @@ Missing:
 })
 ```
 
-While babel is fine.
+Babel's fine though.
+
+Checkout 'old-babel-sc' to see that output from 1.10.5 is A.O.K, for both rollup and babel.
